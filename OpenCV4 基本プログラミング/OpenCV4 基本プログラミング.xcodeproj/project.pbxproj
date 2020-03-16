@@ -256,6 +256,7 @@
 		7BE50C65241FDD8C0010F828 /* flip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flip.cpp; sourceTree = "<group>"; };
 		7BE50C67241FDFE10010F828 /* resize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resize.cpp; sourceTree = "<group>"; };
 		7BE50C69241FE2510010F828 /* rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotate.cpp; sourceTree = "<group>"; };
+		7BE50C6B241FE58D0010F828 /* rotateContinue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotateContinue.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,6 +527,7 @@
 				7BE50C65241FDD8C0010F828 /* flip.cpp */,
 				7BE50C67241FDFE10010F828 /* resize.cpp */,
 				7BE50C69241FE2510010F828 /* rotate.cpp */,
+				7BE50C6B241FE58D0010F828 /* rotateContinue.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";

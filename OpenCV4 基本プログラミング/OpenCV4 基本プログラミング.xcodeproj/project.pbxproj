@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BE508BB241F0F4C0010F828 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE508BA241F0F4C0010F828 /* main.cpp */; };
 		7BE50BEA241F235C0010F828 /* libopencv_structured_light.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B7F241F23570010F828 /* libopencv_structured_light.4.2.0.dylib */; };
 		7BE50BEB241F235C0010F828 /* libopencv_dnn_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B80241F23570010F828 /* libopencv_dnn_objdetect.a */; };
 		7BE50BEC241F235C0010F828 /* libopencv_fuzzy.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B81241F23570010F828 /* libopencv_fuzzy.4.2.0.dylib */; };
@@ -115,6 +114,7 @@
 		7BE50C52241F235C0010F828 /* libopencv_line_descriptor.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50BE7241F235C0010F828 /* libopencv_line_descriptor.4.2.0.dylib */; };
 		7BE50C53241F235C0010F828 /* libopencv_dnn_superres.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50BE8241F235C0010F828 /* libopencv_dnn_superres.a */; };
 		7BE50C54241F235C0010F828 /* libippiw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50BE9241F235C0010F828 /* libippiw.a */; };
+		7BE50C70241FEF2A0010F828 /* circles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE50C6F241FEF2A0010F828 /* circles.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -258,6 +258,7 @@
 		7BE50C69241FE2510010F828 /* rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotate.cpp; sourceTree = "<group>"; };
 		7BE50C6B241FE58D0010F828 /* rotateContinue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotateContinue.cpp; sourceTree = "<group>"; };
 		7BE50C6D241FE9950010F828 /* perspective.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = perspective.cpp; sourceTree = "<group>"; };
+		7BE50C6F241FEF2A0010F828 /* circles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circles.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +402,7 @@
 				7BE50C56241F91A20010F828 /* src */,
 				7BE50C55241F23E80010F828 /* lena.png */,
 				7BE508BA241F0F4C0010F828 /* main.cpp */,
+				7BE50C6F241FEF2A0010F828 /* circles.cpp */,
 			);
 			path = "OpenCV4 基本プログラミング";
 			sourceTree = "<group>";
@@ -592,7 +594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE508BB241F0F4C0010F828 /* main.cpp in Sources */,
+				7BE50C70241FEF2A0010F828 /* circles.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

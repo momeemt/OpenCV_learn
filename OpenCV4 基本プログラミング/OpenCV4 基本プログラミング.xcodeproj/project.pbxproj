@@ -252,6 +252,7 @@
 		7BE50C55241F23E80010F828 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lena.png; path = ../../../../Desktop/lena.png; sourceTree = "<group>"; };
 		7BE50C5F241F99E60010F828 /* myMat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myMat.cpp; sourceTree = "<group>"; };
 		7BE50C61241F9C170010F828 /* UMat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UMat.cpp; sourceTree = "<group>"; };
+		7BE50C63241FD92B0010F828 /* XchgMatUmat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XchgMatUmat.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -518,6 +519,7 @@
 			children = (
 				7BE50C5F241F99E60010F828 /* myMat.cpp */,
 				7BE50C61241F9C170010F828 /* UMat.cpp */,
+				7BE50C63241FD92B0010F828 /* XchgMatUmat.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";

@@ -251,6 +251,7 @@
 		7BE50BE9241F235C0010F828 /* libippiw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libippiw.a; path = ../../../../../usr/local/Cellar/opencv/4.2.0_3/lib/libippiw.a; sourceTree = "<group>"; };
 		7BE50C55241F23E80010F828 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lena.png; path = ../../../../Desktop/lena.png; sourceTree = "<group>"; };
 		7BE50C5F241F99E60010F828 /* myMat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myMat.cpp; sourceTree = "<group>"; };
+		7BE50C61241F9C170010F828 /* UMat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UMat.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +517,7 @@
 			isa = PBXGroup;
 			children = (
 				7BE50C5F241F99E60010F828 /* myMat.cpp */,
+				7BE50C61241F9C170010F828 /* UMat.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";

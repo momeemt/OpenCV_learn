@@ -1,5 +1,5 @@
 #include <opencv2/opencv.hpp>
-#include "src/myMat.cpp"
+#include "src/UMat.cpp"
 
 using namespace cv;
 using namespace std;
@@ -11,7 +11,8 @@ int main(int argc, char* argv[]) {
         return -1;
     }
     
-    Mat src = imread(argv[1]);
+    UMat src;
+    imread(argv[1]).copyTo(src);
     my_gray_scale(src);
     return 0;
 }

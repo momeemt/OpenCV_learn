@@ -255,6 +255,7 @@
 		7BE50C63241FD92B0010F828 /* XchgMatUmat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XchgMatUmat.cpp; sourceTree = "<group>"; };
 		7BE50C65241FDD8C0010F828 /* flip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flip.cpp; sourceTree = "<group>"; };
 		7BE50C67241FDFE10010F828 /* resize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resize.cpp; sourceTree = "<group>"; };
+		7BE50C69241FE2510010F828 /* rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rotate.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -524,6 +525,7 @@
 				7BE50C63241FD92B0010F828 /* XchgMatUmat.cpp */,
 				7BE50C65241FDD8C0010F828 /* flip.cpp */,
 				7BE50C67241FDFE10010F828 /* resize.cpp */,
+				7BE50C69241FE2510010F828 /* rotate.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";

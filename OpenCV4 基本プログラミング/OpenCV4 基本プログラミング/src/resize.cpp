@@ -13,7 +13,7 @@ using namespace cv;
 
 void my_resize(int argc, char* argv[]) {
     try {
-        Mat src, dst;
+        UMat src, dst;
         if (argc < 3) {
             throw "few parameter, e.g. <filename> <scale W> [<scale H>].";
         }
@@ -23,7 +23,7 @@ void my_resize(int argc, char* argv[]) {
         if (argc == 4) {
             scaleH = stof(argv[3]);
         }
-        src = imread(argv[1]);
+        imread(argv[1]).copyTo(src);
         if(src.empty()) {
             throw "faild open file.";
         }

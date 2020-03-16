@@ -51,6 +51,12 @@
             ReferencedContainer = "container:OpenCV4 &#x57fa;&#x672c;&#x30d5;&#x309a;&#x30ed;&#x30af;&#x3099;&#x30e9;&#x30df;&#x30f3;&#x30af;&#x3099;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/momiyama/Desktop/S__24240139.jpg"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

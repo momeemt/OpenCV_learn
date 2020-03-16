@@ -56,6 +56,10 @@
             argument = "/Users/momiyama/Desktop/S__24240139.jpg"
             isEnabled = "YES">
          </CommandLineArgument>
+         <CommandLineArgument
+            argument = "0"
+            isEnabled = "YES">
+         </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
    <ProfileAction

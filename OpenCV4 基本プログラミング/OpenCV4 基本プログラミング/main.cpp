@@ -1,11 +1,11 @@
 #include <opencv2/opencv.hpp>
-#include "src/rotateContinue.cpp"
+#include "src/perspective.cpp"
 
 using namespace cv;
 using namespace std;
 
 int main(int argc, char* argv[]) {
     
-    my_rotate_continue(argc, argv);
+    my_perspective(argc, argv);
     return 0;
 }

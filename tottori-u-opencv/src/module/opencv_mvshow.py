@@ -2,7 +2,7 @@ import cv2
 
 
 def main():
-    read_video()
+    save_video()
 
 
 def video_caps():
@@ -26,6 +26,25 @@ def read_video():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
+    cv2.destroyAllWindows()
+
+
+def save_video():
+    cap = cv2.VideoCapture(0)
+    fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
+    out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (640, 480))
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if ret:
+            frame = cv2.flip(frame, 0)
+            out.write(frame)
+            cv2.imshow('frame', frame)
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+        else:
+            break
+    cap.release()
+    out.release()
     cv2.destroyAllWindows()
 
 

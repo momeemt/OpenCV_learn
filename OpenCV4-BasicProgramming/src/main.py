@@ -1,5 +1,6 @@
 import Chapter4 as C4
 
 arg: str = input()
-flip_code: int = int(input())
-C4.flip.main(arg, flip_code)
+scale_w = float(input())
+scale_h = float(input())
+C4.resize.main(arg, scale_w, scale_h)

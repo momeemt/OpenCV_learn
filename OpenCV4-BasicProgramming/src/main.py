@@ -1,4 +1,5 @@
-import Chapter3 as C3
+import Chapter4 as C4
 
 arg: str = input()
-C3.UMat.main(arg)
+flip_code: int = int(input())
+C4.flip.main(arg, flip_code)

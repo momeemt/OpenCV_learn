@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B97F8C3248F04EA00E4F06B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE508BA241F0F4C0010F828 /* main.cpp */; };
 		7BE50BEA241F235C0010F828 /* libopencv_structured_light.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B7F241F23570010F828 /* libopencv_structured_light.4.2.0.dylib */; };
 		7BE50BEB241F235C0010F828 /* libopencv_dnn_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B80241F23570010F828 /* libopencv_dnn_objdetect.a */; };
 		7BE50BEC241F235C0010F828 /* libopencv_fuzzy.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B81241F23570010F828 /* libopencv_fuzzy.4.2.0.dylib */; };
@@ -114,7 +115,6 @@
 		7BE50C52241F235C0010F828 /* libopencv_line_descriptor.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50BE7241F235C0010F828 /* libopencv_line_descriptor.4.2.0.dylib */; };
 		7BE50C53241F235C0010F828 /* libopencv_dnn_superres.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50BE8241F235C0010F828 /* libopencv_dnn_superres.a */; };
 		7BE50C54241F235C0010F828 /* libippiw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50BE9241F235C0010F828 /* libippiw.a */; };
-		7BE50C70241FEF2A0010F828 /* circles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE50C6F241FEF2A0010F828 /* circles.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -379,6 +379,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B97F8C4248F05BF00E4F06B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		7BE508AE241F0F4C0010F828 = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +406,7 @@
 		7BE508B9241F0F4C0010F828 /* OpenCV4 基本プログラミング */ = {
 			isa = PBXGroup;
 			children = (
+				7B97F8C4248F05BF00E4F06B /* assets */,
 				7BE50C56241F91A20010F828 /* src */,
 				7BE50C55241F23E80010F828 /* lena.png */,
 				7BE508BA241F0F4C0010F828 /* main.cpp */,
@@ -563,7 +571,7 @@
 		7BE508AF241F0F4C0010F828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = p_as_ta;
 				TargetAttributes = {
 					7BE508B6241F0F4C0010F828 = {
@@ -578,6 +586,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 7BE508AE241F0F4C0010F828;
 			productRefGroup = 7BE508B8241F0F4C0010F828 /* Products */;
@@ -594,7 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE50C70241FEF2A0010F828 /* circles.cpp in Sources */,
+				7B97F8C3248F04EA00E4F06B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +722,7 @@
 		7BE508BF241F0F4C0010F828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AK546J4UW;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -783,6 +793,7 @@
 		7BE508C0241F0F4C0010F828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AK546J4UW;
 				ENABLE_HARDENED_RUNTIME = YES;
